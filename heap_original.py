@@ -1,8 +1,4 @@
 
-from numpy import *
-
-import numpy as np
-
 # Operations for a max-heap. Largest element is first
 
 def siftup(heap, pos):

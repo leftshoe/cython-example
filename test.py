@@ -11,7 +11,7 @@ sTime = time.time()
 # Do some processing
 for i in range(100000):
 	data[0] += 0.1*np.random.rand()
-	heap.siftup(data,0)
+	#heap.siftup(data,0)
 
 eTime = time.time()
 print "Took: %1.2f seconds" % (eTime-sTime)
